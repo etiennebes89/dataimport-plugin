@@ -1,0 +1,22 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": "src",
+    "allowJs": false,
+    "target": "es5",
+    "declaration": true
+  },
+  "include": [
+    "src",
+    "test",
+    "dev-app"
+  ],
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
